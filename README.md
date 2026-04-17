@@ -1,6 +1,6 @@
 # ☁️ AWS S3 Static Resume Website
 
-This project demonstrates my hands-on experience in deploying a static website using Amazon Web Services (AWS). It showcases my ability to work with cloud infrastructure, configure storage services, and deploy a live web application.
+This project demonstrates my hands-on experience in deploying a static website using Amazon Web Services (AWS). It showcases my ability to configure cloud infrastructure, manage storage services, and deploy a live web application.
 
 ---
 
@@ -9,48 +9,64 @@ This project demonstrates my hands-on experience in deploying a static website u
 
 ---
 
-## 🚀 Project Overview
+## 📌 Project Overview
 
-In this project, I built and deployed a personal resume website using AWS S3 static website hosting.
+In this project, I designed and deployed my personal resume website using AWS S3 static website hosting.
 
-This includes:
-- Creating and configuring an S3 bucket
-- Enabling static website hosting
-- Setting bucket policies for public access
-- Uploading and managing website files
-- Troubleshooting access and deployment issues
+The project simulates a real-world cloud deployment scenario and demonstrates core cloud engineering fundamentals.
+
+---
+
+## 🏗️ Architecture
+
+User → Browser → AWS S3 (Static Website Hosting)
+
+- Website files (HTML/CSS) stored in S3 bucket  
+- Public access configured via bucket policy  
+- Website served directly from S3 endpoint  
+
+---
+
+## 🚀 Implementation Steps
+
+1. Created an S3 bucket for static website hosting  
+2. Disabled block public access settings  
+3. Configured bucket policy for public read access  
+4. Enabled static website hosting  
+5. Uploaded HTML and image files  
+6. Verified deployment using S3 endpoint  
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Amazon S3
-- HTML & CSS
-- Basic Networking Concepts
+- Amazon S3  
+- HTML & CSS  
+- Basic Networking Concepts  
 
 ---
 
-## 📚 What I Learned
+## 📚 Key Learnings
 
-- How to configure and deploy static websites on AWS S3
-- Understanding of bucket policies and public access settings
-- Basics of cloud storage and web hosting
-- Debugging common deployment issues (403 errors, permissions, file structure)
+- Understanding of **S3 storage and static hosting**
+- Configuring **bucket policies and public access**
+- Troubleshooting deployment issues (403 errors, permissions)
+- Basics of **cloud deployment and hosting**
 
 ---
 
 ## 📸 Project Preview
 
-You can view the live website using the link above.
+Visit the live website using the link above.
 
 ---
 
 ## 📌 Future Improvements
 
-- Add custom domain (Route 53)
-- Implement HTTPS using CloudFront
-- Enhance UI/UX design
-- Expand into serverless backend (AWS Lambda)
+- Add custom domain using Route 53  
+- Implement HTTPS using CloudFront  
+- Add backend integration using AWS Lambda  
+- Introduce CI/CD pipeline using GitHub Actions  
 
 ---
 
@@ -59,4 +75,4 @@ You can view the live website using the link above.
 **Iskandar Dzulkarnaen**  
 Aspiring Cloud Support / Infrastructure Engineer  
 
----
+GitHub: https://github.com/dzulkarnaen13
