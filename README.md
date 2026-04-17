@@ -1,6 +1,6 @@
 # ☁️ AWS S3 Static Resume Website
 
-This project demonstrates my hands-on experience in deploying a static website using Amazon Web Services (AWS). It showcases my ability to configure cloud infrastructure, manage storage services, and deploy a live web application.
+This project demonstrates my hands-on experience in deploying a static website using Amazon Web Services (AWS). It highlights my ability to configure cloud infrastructure, manage storage services, and deploy a live web application.
 
 ---
 
@@ -9,32 +9,38 @@ This project demonstrates my hands-on experience in deploying a static website u
 
 ---
 
-## 📌 Project Overview
+## 📌 Problem Statement
 
-In this project, I designed and deployed my personal resume website using AWS S3 static website hosting.
+Traditional resumes are static and do not demonstrate real technical skills.
 
-This project demonstrates core cloud fundamentals including storage, hosting, and access management in a real-world deployment scenario.
+This project solves that by transforming a resume into a **live cloud-hosted application**, showcasing practical knowledge of cloud deployment and infrastructure.
+
+---
+
+## 💡 Solution
+
+I built and deployed a personal resume website using **AWS S3 Static Website Hosting**, making it publicly accessible and hosted in the cloud.
 
 ---
 
 ## 🏗️ Architecture
 
-User → Browser → AWS S3 (Static Website Hosting)
+User → Browser → AWS S3
 
-- Website files (HTML/CSS) are stored in an S3 bucket  
-- Public access is configured using bucket policy  
-- Website is served via S3 static website endpoint  
+- HTML/CSS files stored in S3 bucket  
+- Public access enabled using bucket policy  
+- Website served through S3 static endpoint  
 
 ---
 
 ## 🚀 Implementation Steps
 
-1. Created an S3 bucket for static website hosting  
+1. Created an S3 bucket for hosting  
 2. Disabled block public access settings  
 3. Configured bucket policy for public read access  
 4. Enabled static website hosting  
 5. Uploaded HTML and image files  
-6. Tested and validated website deployment  
+6. Tested and validated deployment  
 
 ---
 
@@ -48,16 +54,10 @@ User → Browser → AWS S3 (Static Website Hosting)
 
 ## 📚 Key Learnings
 
-- Configuring **S3 static website hosting**
-- Managing **bucket policies and public access**
-- Understanding **cloud storage and deployment**
-- Troubleshooting issues such as **403 Access Denied**
-
----
-
-## 📸 Project Preview
-
-Visit the live website using the link above.
+- Deploying static websites on **AWS S3**
+- Configuring **bucket policies and permissions**
+- Understanding **cloud storage and hosting concepts**
+- Troubleshooting common issues such as **403 Access Denied**
 
 ---
 
@@ -65,8 +65,8 @@ Visit the live website using the link above.
 
 - Add custom domain using Route 53  
 - Implement HTTPS using CloudFront  
-- Integrate backend using AWS Lambda  
-- Implement CI/CD pipeline using GitHub Actions  
+- Add backend using AWS Lambda  
+- Implement CI/CD using GitHub Actions  
 
 ---
 
