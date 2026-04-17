@@ -13,7 +13,7 @@ This project demonstrates my hands-on experience in deploying a static website u
 
 In this project, I designed and deployed my personal resume website using AWS S3 static website hosting.
 
-The project simulates a real-world cloud deployment scenario and demonstrates core cloud engineering fundamentals.
+This project demonstrates core cloud fundamentals including storage, hosting, and access management in a real-world deployment scenario.
 
 ---
 
@@ -21,9 +21,9 @@ The project simulates a real-world cloud deployment scenario and demonstrates co
 
 User → Browser → AWS S3 (Static Website Hosting)
 
-- Website files (HTML/CSS) stored in S3 bucket  
-- Public access configured via bucket policy  
-- Website served directly from S3 endpoint  
+- Website files (HTML/CSS) are stored in an S3 bucket  
+- Public access is configured using bucket policy  
+- Website is served via S3 static website endpoint  
 
 ---
 
@@ -34,7 +34,7 @@ User → Browser → AWS S3 (Static Website Hosting)
 3. Configured bucket policy for public read access  
 4. Enabled static website hosting  
 5. Uploaded HTML and image files  
-6. Verified deployment using S3 endpoint  
+6. Tested and validated website deployment  
 
 ---
 
@@ -48,10 +48,10 @@ User → Browser → AWS S3 (Static Website Hosting)
 
 ## 📚 Key Learnings
 
-- Understanding of **S3 storage and static hosting**
-- Configuring **bucket policies and public access**
-- Troubleshooting deployment issues (403 errors, permissions)
-- Basics of **cloud deployment and hosting**
+- Configuring **S3 static website hosting**
+- Managing **bucket policies and public access**
+- Understanding **cloud storage and deployment**
+- Troubleshooting issues such as **403 Access Denied**
 
 ---
 
@@ -65,8 +65,8 @@ Visit the live website using the link above.
 
 - Add custom domain using Route 53  
 - Implement HTTPS using CloudFront  
-- Add backend integration using AWS Lambda  
-- Introduce CI/CD pipeline using GitHub Actions  
+- Integrate backend using AWS Lambda  
+- Implement CI/CD pipeline using GitHub Actions  
 
 ---
 
