@@ -11,15 +11,17 @@ This project demonstrates my hands-on experience in deploying a static website u
 
 ## 📌 Problem Statement
 
-Traditional resumes are static and do not demonstrate real technical skills.
+Traditional resumes are static and do not demonstrate real technical skills or hands-on experience.
 
-This project solves that by transforming a resume into a **live cloud-hosted application**, showcasing practical knowledge of cloud deployment and infrastructure.
+To stand out, I transformed my resume into a **live cloud-hosted application**, showcasing practical knowledge of AWS and cloud deployment.
 
 ---
 
 ## 💡 Solution
 
-I built and deployed a personal resume website using **AWS S3 Static Website Hosting**, making it publicly accessible and hosted in the cloud.
+I built and deployed a personal resume website using **AWS S3 Static Website Hosting**, making it publicly accessible through the cloud.
+
+This project demonstrates real-world cloud fundamentals including storage, hosting, and access control.
 
 ---
 
@@ -27,15 +29,15 @@ I built and deployed a personal resume website using **AWS S3 Static Website Hos
 
 User → Browser → AWS S3
 
-- HTML/CSS files stored in S3 bucket  
-- Public access enabled using bucket policy  
-- Website served through S3 static endpoint  
+- Static website files (HTML/CSS) stored in S3  
+- Public access configured via bucket policy  
+- Website served through S3 static website endpoint  
 
 ---
 
 ## 🚀 Implementation Steps
 
-1. Created an S3 bucket for hosting  
+1. Created an S3 bucket for static hosting  
 2. Disabled block public access settings  
 3. Configured bucket policy for public read access  
 4. Enabled static website hosting  
@@ -54,10 +56,10 @@ User → Browser → AWS S3
 
 ## 📚 Key Learnings
 
-- Deploying static websites on **AWS S3**
+- Deploying static websites using **AWS S3**
 - Configuring **bucket policies and permissions**
 - Understanding **cloud storage and hosting concepts**
-- Troubleshooting common issues such as **403 Access Denied**
+- Troubleshooting errors such as **403 Access Denied**
 
 ---
 
@@ -65,8 +67,8 @@ User → Browser → AWS S3
 
 - Add custom domain using Route 53  
 - Implement HTTPS using CloudFront  
-- Add backend using AWS Lambda  
-- Implement CI/CD using GitHub Actions  
+- Build backend integration using AWS Lambda  
+- Implement CI/CD pipeline using GitHub Actions  
 
 ---
 
